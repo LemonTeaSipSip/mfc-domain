@@ -1,8 +1,12 @@
 import './App.css';
+import Domains from './Components/Domains';
+
+
 function App() {
   return (
     <div className="App">
-          <span style={{color: 'white'}}>Subscribe Zainkeepscode</span>
+      <Domains/>
+          
     </div>
   );
 }
